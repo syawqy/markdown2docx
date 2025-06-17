@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* Remove text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+textarea {
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  border: none;
+  border-right: 1px solid #ccc;
+  font-family: monospace;
+  font-size: 14px;
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+}
+
+.preview {
+  width: 50%;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: #fff;
+  text-align: left; /* Explicitly set left alignment for preview */
+}
+
+.buttons {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 10;
+}
+
+.buttons button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Markdown Styles */
+.preview h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: left;
+}
+.preview h2 {
+  font-size: 20px;
+  margin-top: 18px;
+  text-align: left;
+}
+.preview h3 {
+  font-size: 16px;
+  margin-top: 16px;
+  text-align: left;
+}
+.preview p {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.preview code {
+  background: #eee;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.preview pre {
+  background: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+  text-align: left;
+}
+.preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.preview th,
+.preview td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+.preview th {
+  background-color: #f0f0f0;
+}
+
+.preview ul,
+.preview ol {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.preview li {
+  text-align: left;
+}
