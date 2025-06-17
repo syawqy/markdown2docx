@@ -40,7 +40,7 @@ A modern React application that converts Markdown text to DOCX documents with re
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/syawqy/markdown2docx.git
 cd markdown2docx
 ```
 2. Install dependencies:
